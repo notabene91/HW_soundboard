@@ -4,7 +4,7 @@ const audio = document.querySelector('.container__track');
 
 
 items.forEach((item) => {
-  item.childNodes[1].volume = 0.3;
+  item.childNodes[1].volume = 0.5;
   item.addEventListener('click', () => {
     if (item.childNodes[1].paused) {
       item.childNodes[1].play();
