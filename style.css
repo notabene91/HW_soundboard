@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   cursor: pointer;
   width: 100%;
+  cursor: pointer;
 }
 
 .container__image {
